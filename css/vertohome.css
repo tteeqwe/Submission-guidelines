@@ -1,0 +1,226 @@
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+    page-break-inside: avoid;
+  }
+img {
+    max-width: 100% !important;
+  }
+
+h1 {
+
+	color:#94C93D;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-weight: normal;
+	font-size: 50px;
+	font-family:'Open Sans Regular';
+}
+
+h2 {
+
+	color:#94C93D;
+	display:flex;
+	align-items:center;
+display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: center;
+    align-content: center;	justify-content:center;
+	font-weight: normal;
+	font-size: 25px;
+	font-family:'Open Sans Regular';
+
+}
+
+
+.contentCenterDIV{
+
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+p {
+	
+	text-align: center;
+	
+	color:#222321;
+	font-weight: normal;
+	font-family:'Open Sans Regular';
+	
+	width: 600px;
+}
+
+
+
+.vertocontent {
+	width: 300px;
+	border:solid pink;
+}
+
+.container {
+	text-decoration: green;
+	color:green;
+	line-height: 20px;
+	 
+}
+
+.buttonDiv{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.videoButton {
+	
+	box-shadow:inset 0px 1px 3px 0px #94C93E;
+	background-color:#94C93D;  
+	border-radius:5px;
+	border:1px solid #94C93D;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Open Sans Light',Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px; 
+	text-shadow:0px -1px 0px #93c93d;
+}
+.videoButton:hover {
+	background-color:#5cbf2a;
+}
+.videoButton:active {
+	position:relative;
+	top:1px;
+}
+
+table {
+    border-spacing: 5px;
+    text-align: center;
+    font-family:'Open Sans Light',Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
+
+th, td {
+    padding: 15px;
+    color:#94C93D;
+    font-weight: normal; 
+}
+
+th {
+
+	font-size: 50px;
+	height: 175px; 
+	width: 200px; 
+}
+
+td {
+	font-size:20px; 
+}
+top-banner{
+	margin-top:80px;
+	border-bottom:1px solid #94C93D;
+	width:100%;min-height:100%;
+	position:fixed;
+	left:0;
+	top:50%;
+	-ms-transform:translate(0%,-50%);
+	-webkit-transform:translate(0%,-50%);
+	transform:translate(0%,-50%)
+
+}
+
+
+
+.bottommanner table{
+	font-weight: normal;
+ 
+}
+
+.bottommanner table th{
+	color:#94C93D;
+    text-align: left;
+    height: 25px; 
+    font-size:25px;
+}
+
+.bottommanner table td{
+	color: grey;
+	text-align:left;
+	font-size:15px;
+	width: 60px; 
+}
+/*banner{
+	height:660px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	text-align:center;
+	box-sizing:content-box;
+	clear:both;
+	clip:rect(auto,auto,auto,auto);
+	-webkit-clip-path:inset(0 0 0 0);
+	clip-path:inset(0 0 0 0);
+	background-attachment:fixed
+	}
+*/
+
+.entry-content{
+	top:0;
+	font-size:14px;
+	-webkit-transform:none;
+	-ms-transform:none;
+	transform:none;
+	position:static;
+	padding:0
+	border: solid black;
+}
+
+.vestaphoneBK{
+	background-image: url("Development Task/Development Task/assets/vesta-back@2x.jpg") repeat 0 0;
+
+	
+
+    /*  display: block;*/
+}
+ .mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
