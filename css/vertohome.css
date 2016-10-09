@@ -150,6 +150,7 @@ th {
 	font-size: 50px;
 	height: 175px; 
 	width: 200px; 
+	border:solid black;
 }
 
 td {
